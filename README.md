@@ -1,6 +1,6 @@
 # Projekt Sprzedaż Samochodów
 
-Projekt na Strony i Aplikacje internetowe. 
+Projekt na Strony i Aplikacje internetowe.   (nie pozdrawiam php)
 
 ## Strona napisana w:
 - HTML
