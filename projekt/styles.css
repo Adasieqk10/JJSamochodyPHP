@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.wrapper {
+    max-width: 90svw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 60%;
+    max-width: 60%;
+    background-color: #fff;
+    padding: 1.8dvw 3dvw;
+    box-shadow: 0 0.2dvh 0.8dvh rgba(0, 0, 0, 0.1);
+    border-radius: 0.8dvw;
+    overflow-y: auto;
+    max-height: 80svh;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    /* ukrycie paska scrolla bo wyglądało niefajnie*/
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow-x: visible;
+}
+
+h2 {
+    color: black !important;
+    margin-bottom: 2dvh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1dvh;
+    max-width: 25dvw;
+    margin-top: 2dvh;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="date"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.8dvh 1dvw;
+    border: 1px solid #ccc;
+    border-radius: 0.4dvw;
+    font-size: 1.4dvh;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #04aa6d;
+    color: white;
+    border: none;
+    padding: 1dvh 1.5dvw;
+    border-radius: 0.4dvw;
+    cursor: pointer;
+    font-size: 1.6dvh;
+    margin-top: 1dvh;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #03804a;
+}
+
+#records {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0.2dvh 0.8dvh rgba(0, 0, 0, 0.1);
+    border-radius: 0.8dvw;
+    overflow: hidden;
+}
+
+#records td,
+#records th {
+    border: 1px solid #ddd;
+    padding: 1.2dvh 1.5dvw;
+    text-align: left;
+}
+
+#records tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#records tr:hover {
+    background-color: #f1f1f1;
+}
+
+#records th {
+    padding-top: 1.5dvh;
+    padding-bottom: 1.5dvh;
+    background-color: #04aa6d;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#records td:nth-child(4),
+#records th:nth-child(4) {
+    text-align: center !important;
+}
+
+#records th:last-child {
+    text-align: left !important;
+}
+
+a.logout-button {
+    display: inline-block;
+    margin-top: 2dvh;
+    padding: 1dvh 1.5dvw 1dvh 1.5dvw;
+    background-color: #f44336;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.4dvw;
+    transition: background-color 0.3s ease;
+    width: auto;
+}
+
+.logout-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0 0 1em 0;
+    box-sizing: border-box;
+    padding: 0 1.5dvw 0 3dvw;
+    max-width: none;
+}
+
+a.logout-button:hover {
+    background-color: #9b2525;
+}
+
+.password-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.password-input {
+    width: 100%;
+    padding-right: 2.5em;
+    box-sizing: border-box;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 0.5em;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+}
