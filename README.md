@@ -1,4 +1,6 @@
-# Projekt Sprzedaż samochodów
+# Projekt Sprzedaż Samochodów
+
+Projekt na Strony i Aplikacje internetowe. 
 
 ## Strona napisana w:
 - HTML
@@ -45,4 +47,3 @@ INSERT INTO samochody (marka, model, cena, klient, data_sprzedazy) VALUES
 ```
 
 Made by Adam Kurzawa
--## fuck php
