@@ -2,6 +2,8 @@
 
 Projekt na Strony i Aplikacje internetowe.   (nie pozdrawiam php)
 
+Folder ___projekt___ należy pobrać oraz rozpakować, następnie wrzucić do folderu xampp/htdocs . Uruchomić XAMPP Control Panel, włączyć moduły Apache oraz MySQL. Otworzyć localhost/phpMyAdmin, kliknąć w zakładkę SQL i wkleić kod sql (umieszczony niżej). Następnie otworzyć localhost/projekt/main.php 
+
 ## Strona napisana w:
 - HTML
 - PHP
