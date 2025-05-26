@@ -25,7 +25,7 @@ Folder repozytorium należy pobrać oraz rozpakować, następnie folder ___proje
 CREATE DATABASE SprzedazSamochodow;
 USE SprzedazSamochodw;
 
-CREATE TABLE Laptopy (
+CREATE TABLE samochody (
 id INT AUTO_INCREMENT PRIMARY KEY,
 marka VARCHAR(100),
 model VARCHAR(100),
