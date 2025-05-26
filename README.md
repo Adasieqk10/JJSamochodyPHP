@@ -23,7 +23,7 @@ Folder repozytorium należy pobrać oraz rozpakować, następnie folder ___proje
 
 ```sql
 CREATE DATABASE SprzedazSamochodow;
-USE SprzedazSamochodw;
+USE SprzedazSamochodow;
 
 CREATE TABLE samochody (
 id INT AUTO_INCREMENT PRIMARY KEY,
