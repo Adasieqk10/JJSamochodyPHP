@@ -1,8 +1,9 @@
 # Projekt Sprzedaż Samochodów
 
-Projekt na Strony i Aplikacje internetowe.   (nie pozdrawiam php)
+Projekt na Strony i Aplikacje internetowe
 
 Folder repozytorium należy pobrać oraz rozpakować, następnie folder ___projekt___ wrzucić do folderu __xampp/htdocs__. Uruchomić XAMPP Control Panel, włączyć moduły Apache oraz MySQL. Otworzyć w przeglądarce __localhost/phpMyAdmin__, kliknąć w zakładkę SQL i wkleić kod umieszczony niżej. Następnie otworzyć __localhost/projekt/main.php__ 
+Dane logowania do panelu admina: użytkownik: __admin__, hasło: __admin1234__
 
 ## Strona napisana w:
 - HTML
